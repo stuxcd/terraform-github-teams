@@ -3,10 +3,7 @@
 ################################################################################
 
 locals {
-  teams_length = length(var.teams)
-  teams = merge(flatten([for i in range(local.teams_length) :
-    { for entry in var.teams : format("%s.%s", lookup(entry, "name"), i) => entry }
-  ])...)
+  teams = { for i, entry in var.teams : format("%s.%s", lookup(entry, "name"), i) => entry }
   team_attributes = [for k, v in local.teams : {
     id          = github_team.this[k].id
     name        = github_team.this[k].name
