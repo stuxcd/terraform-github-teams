@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0](https://github.com/stuxcd/terraform-github-teams/compare/v1.1.0...v1.2.0) (2022-09-05)
+
+
+### Features
+
+* **teams:** add default team description ([409e3fb](https://github.com/stuxcd/terraform-github-teams/commit/409e3fb9308b8309420cf6e39e67f5e4e1f5b442))
+
 ## [1.1.0](https://github.com/stuxcd/terraform-github-teams/compare/v1.0.0...v1.1.0) (2022-09-05)
 
 
