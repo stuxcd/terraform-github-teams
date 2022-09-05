@@ -16,5 +16,5 @@ resource "github_team" "this" {
   for_each = local.teams
 
   name        = each.value.name
-  description = each.value.description
+  description = lookup(each.value, "description", "Managed by Terraform")
 }
