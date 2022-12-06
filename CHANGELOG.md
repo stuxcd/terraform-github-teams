@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.0](https://github.com/stuxcd/terraform-github-teams/compare/v1.2.0...v1.3.0) (2022-12-06)
+
+
+### Features
+
+* **provider:** increase github provider version ([#19](https://github.com/stuxcd/terraform-github-teams/issues/19)) ([53ee0f4](https://github.com/stuxcd/terraform-github-teams/commit/53ee0f49e7604d3ec4f9d6d26f255f75c3bff567))
+
 ## [1.2.0](https://github.com/stuxcd/terraform-github-teams/compare/v1.1.0...v1.2.0) (2022-09-05)
 
 
